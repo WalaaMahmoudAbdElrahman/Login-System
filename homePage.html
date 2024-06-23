@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ^ Title -->
+    <title>Home Page</title>
+    <!--^ Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- ^ Icon -->
+    <link rel="icon" href="./Images/key.png">
+    <!--  Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!--  Bootstrap Css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--  Main Css-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="mainHome">
+    <div class="vh-100 home-page container d-flex align-items-center justify-content-center">
+        <nav class="navbar m-auto p-4 fixed-top navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">Smart Log In</a>
+                <a href="./index.html"
+                    class="btn-logOut text-secondary text-decoration-none fw-bold bg-white bg-opacity-10 px-3 py-2 rounded border-0"
+                    type="submit">Sign Out</a>
+            </div>
+        </nav>
+
+
+        <div class="homepage-card w-75 p-5 rounded">
+            <h1 id="msg-Home" class="text-capitalize msg-Home text-center" onchange="currentName">
+                Welcome...</h1>
+        </div>
+    </div>
+       <!--  Main js bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+       <!--  Main js-->
+    <script src="./js/home.js"></script>
+</body>
+
+</html>

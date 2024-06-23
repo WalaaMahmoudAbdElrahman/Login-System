@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Title -->
+    <title>Sign In</title>
+    <!--Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icon -->
+    <link rel="icon" href="./Images/key.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--  Main Css -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="vh-100 signin-page container d-flex align-items-center justify-content-center">
+        <div class="sign-in-card w-75 p-5 rounded">
+            <h1 class="text-center">Smart Login System</h1>
+            <input type="email" id="sI-ml" class=form-control p-2 my-4 sI_mail" placeholder="Enter Your Email Address">
+            <input type="password" id="sI-pW" class="form-control p-2 my-4 sI_pass" placeholder="Enter Your Password">
+            <p class="sI-msg d-none text-danger fw-bolder m-auto my-2">Invalid Email / Password</p>
+            <p class="empty-msg d-none text-danger fw-bolder m-auto my-2">There is no any Account.</p>
+            <a id="sIn-btn" class="d-block sI-btn w-100 rounded">Sign In</a>
+            <p class="text-white m-auto my-3">Don’t have an account? <a class="text-white" href="./signUp.html">Sign
+                    Up</a></p>
+        </div>
+    </div>
+
+            <!--  Main js bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+            <!--  Main js-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

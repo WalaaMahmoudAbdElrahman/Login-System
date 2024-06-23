@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Title -->
+    <title>Sign Up</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!--  Icon -->
+    <link rel="icon" href="./Images/key.png">
+    <!--  Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--  Main Css-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="vh-100 signup-page container d-flex align-items-center justify-content-center">
+        <div class="sign-up-card w-75 p-5 rounded">
+            <h1 class="text-center mb-5">Smart Login System</h1>
+            <p class="fN-re-msg d-none text-danger fw-bolder m-0 mb-1">Required - at least three letters.</p>
+            <input type="text" id="sU-fN" class="form-control p-2 mb-4 sU_name" placeholder="Enter your Full Name">
+            <p class="ml-re-msg d-none text-danger fw-bolder m-0 mb-1">Required - Invaild Email</p>
+            <input type="email" id="sU-ml" class="form-control p-2 mb-4 sU_mail" placeholder="ex: abced@example.com">
+            <p class="pW-re-msg d-none text-danger fw-bolder m-0 mb-1">Required - at least One UPPER letter, special
+                character, number
+                with
+                maximum 16
+                characters.</p>
+            <input type="password" id="sU-pW" class="form-control p-2 mb-4 sU_pass"
+                placeholder="Create Strong Password">
+            <p id="pWc-re-msg" class="pWc-re-msg d-none text-danger fw-bolder m-0 mb-1">Password not identical</p>
+            <input type="password" id="sU-pWc" class="form-control p-2 mb-4 sU_pass"
+                placeholder="Confirm your password">
+            <a id="sUP-btn" class="sI-btn w-100 rounded">Sign Up</a>
+            <p class="text-white m-auto my-3">You have an account? <a class="text-white" href="./index.html">Sign
+                    in</a></p>
+        </div>
+    </div>
+       <!--  Main js bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+       <!--  Main js-->
+    <script src="./js/signUp.js"></script>
+</body>
+
+</html>

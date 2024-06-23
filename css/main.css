@@ -1,0 +1,79 @@
+:root {
+    --main-color: #F8FFFF;
+    --home-main-color: #165CBB;
+    --transition: .4s;
+}
+
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background-color: #24353F;
+    background-image: url(../Images/bg\ main.avif);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+h1 {
+    color: var(--main-color);
+    font-weight: bolder;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+.sign-up-card>a,
+.sign-in-card>a {
+    display: block;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: var(--transition);
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.signin-page a:hover,
+.signup-page a:hover {
+    background-color: var(--main-color);
+    color: black;
+}
+
+.sign-in-card,
+.sign-up-card {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.sign-in-card p,
+.sign-up-card p {
+    width: fit-content;
+}
+
+
+/* * HOME Section */
+.mainHome {
+    background-image: url(../Images/home.jpg);
+}
+
+
+.home-page .navbar .container .btn-logOut:hover {
+    color: var(--home-main-color) !important;
+    border-color: var(--main-color) !important;
+    box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.25);
+}
+
+.home-page .navbar-brand,
+.home-page h1 {
+    color: var(--home-main-color);
+    font-weight: bold;
+    text-shadow: 0px 0px 20px rgba(250, 250, 250, 0.7);
+}
+
+.home-page .navbar,
+.homepage-card {
+    box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.25);
+    background-color: rgba(0, 0, 0, 0.1);
+}
